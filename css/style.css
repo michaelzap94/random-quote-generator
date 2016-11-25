@@ -1,0 +1,94 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#myContainer {
+  margin: 2% auto;
+  width: 90%;
+  border-radius: 10px;
+  height: 90%;
+}
+
+#presentationText {
+  margin: 0 auto;
+  font-size: 70px;
+  text-align: center;
+  color: #232323;
+  font-family: "Great Vibes", cursive;
+  font-weight: bolder;
+  text-shadow: 0 1.5px 1.5px #fff;
+}
+
+
+/****************************/
+
+#wrapperBtn {
+  text-align: center;
+}
+
+#newQuoteBtn {
+  margin-top: 3%;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+  background: white;
+  border: none;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px #999;
+}
+
+#newQuoteBtn:hover {
+  background: steelblue;
+}
+
+#newQuoteBtn:active {
+  background-color: royalblue;
+  box-shadow: 1px 1px #666;
+  transform: translate(4px, 4px);
+}
+
+
+/*****************************/
+
+#quoteBox {
+  margin: 3% auto;
+  max-width: 700px;
+  max-height: 600px;
+  border-radius: 5px;
+  background: white;
+}
+
+#textQuote {
+  padding: 3% 3% 0 3%;
+  display: block;
+  color: #7a7c7f;
+  font-size: 30px;
+  font-family: "Libre Baskerville", serif;
+  line-height: 45px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+
+#authorQuote {
+  padding-left: 3%;
+  color: #7a7c7f;
+  font-size: 25px;
+  font-family: "Libre Baskerville", serif;
+  line-height: 45px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+
+ul li {
+  font-size: 3em;
+  margin-right: 5px;
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  bottom: 3px;
+  padding: 0 0 3% 3%;
+}
